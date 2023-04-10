@@ -10,7 +10,7 @@
  *  g: This flag indicates that the pattern should be applied globally, 
  *  which means that it will match all occurrences in the input string rather than just the first one.
  **/
-const duplicates = "".match(/([^])\1+/g) // gets only repeating characters (may have to be sorted first).
+const duplicates = "".match(/([^])\1+/g) // gets only repeating characters or returns null. (String may have to be sorted first.)
 
 
 
